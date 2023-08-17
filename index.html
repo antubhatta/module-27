@@ -16,15 +16,15 @@
             <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
                 <div class="bg-yellow-400 text-white p-7 rounded-lg">
                     <h4 class="text-3xl">Deposit</h4>
-                    <h2 class="text-5xl">$<span class="deposit-total">0</span></h2>
+                    <h2 class="text-5xl">$<span id="deposit-total">0</span></h2>
                 </div>
                 <div class="bg-red-400 text-white p-7 rounded-lg">
                     <h4 class="text-3xl">Withdraw</h4>
-                    <h2 class="text-5xl">$<span class="withdraw-total">0</span></h2>
+                    <h2 class="text-5xl">$<span id="withdraw-total">0</span></h2>
                 </div>
                 <div class="bg-blue-400 text-white p-7 rounded-lg">
                     <h4 class="text-3xl">Balance</h4>
-                    <h2 class="text-5xl">$<span class="balance-total">1240</span></h2>
+                    <h2 class="text-5xl">$<span id="balance-total">1240</span></h2>
                 </div>
             </div>
         </section>
@@ -39,12 +39,13 @@
 
                 <div class="p-8 bg-yellow-500 rounded-lg">
                     <h2 class="text-4xl text-white mb-4">Your Withdraw</h2>
-                    <input type="text" class="w-3/4 px-3 py-4 rounded-lg block mb-4 outline-none	" name="" id="deposit-field" placeholder="$ amount your want to deposit">
-                    <button id="btn-deposit" class="bg-blue-800 px-6 py-4 rounded-lg text-2xl font-medium text-white hover:bg-blue-600">Deposit</button>
+                    <input type="text" class="w-3/4 px-3 py-4 rounded-lg block mb-4 outline-none	" name="" id="withdraw-field" placeholder="$ amount your want to deposit">
+                    <button id="btn-withdraw" class="bg-blue-800 px-6 py-4 rounded-lg text-2xl font-medium text-white hover:bg-blue-600">Withdraw</button>
                 </div>
             </div>
         </section>
     </main>
     <script src="js/deposit.js"></script>
+    <script src="js/withdrawal.js"></script>
 </body>
 </html>
